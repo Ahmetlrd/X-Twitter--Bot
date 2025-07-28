@@ -1,24 +1,36 @@
 # X(Twitter) Bot
 
-A simple automated Twitter bot built with Python that interacts with the Twitter API to post tweets and reply to mentions. Designed for automating common Twitter tasks such as scheduled tweeting and engagement with followers.
+An AI-powered X bot built with Python and OpenAI GPT-4o. It connects to the X (Twitter) API and intelligently generates tweets and replies using state-of-the-art language understanding.
 
 ## Description
 
-This X bot connects to the X API using `tweepy` to perform automated tweeting and replying to mentions. It can post new tweets on a schedule, respond automatically to mentions, and perform basic interaction logic based on your customization.
+This project combines the X API (via `tweepy`) with OpenAI's GPT-4o model to automate natural and engaging social media interactions.
 
-Ideal for social media managers or developers looking to automate X interactions with minimal setup.
+Key capabilities include:
+- Posting AI-generated tweets based on prompts
+- Customizable logic for content filtering and timing
+
 
 ## Features
 
-- Automated tweeting with customizable intervals  
-- Basic content and logic customization  
-- Easy to extend and modify for your own needs  
+- Uses OpenAI GPT-4o for natural language generation
+- Automated tweeting
+- Easily configurable prompt structure
+- Modular Python code for quick customization
 
 ## Prerequisites
 
-- Python 3.11 installed  
-- X Developer Account with API keys and tokens  
+- Python 3.11
+- Access to OpenAI API (GPT-4o)
+- X Developer account with API keys
+
+## Customization
+
+- You can edit the prompt structure in `code.py`
+- All replies and tweets are generated via GPT-4o and are context-aware.
+- Scheduler and filtering logic can be adapted for specific use cases.
 
 ## Visual Overview
-![Ana Ekran](PNG/X-BOT_0.png)
-![Özet Ekranı](PNG/X-BOT_1.png)
+
+![Main Panel](PNG/X-BOT_0.png)
+![Summary Reply](PNG/X-BOT_1.png)
