@@ -19,4 +19,6 @@ Ideal for social media managers or developers looking to automate X interactions
 - Python 3.11 installed  
 - X Developer Account with API keys and tokens  
 
-## Screenshots
+## Visual Overview
+![Ana Ekran](PNG/X-BOT_0.png)
+![Özet Ekranı](PNG/X-BOT_1.png)
